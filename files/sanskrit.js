@@ -81,7 +81,7 @@ Sanskrit.removeClassName = function(element, className) {
   return newClassNames;
 };
 
-Sanskrit.defaultStyle = 'html { padding:0; cursor:text; } body { font-family: Helvetica, Arial, sans-serif; font-size:90%; margin:0; padding:0.5em; cursor:text; } p { margin: 0 0 1em 0; }';
+Sanskrit.defaultStyle = 'html { padding:0; cursor:text; } body { background:#fff; font-family: Helvetica, Arial, sans-serif; font-size:90%; margin:0; padding:0.5em; cursor:text; } p { margin: 0 0 1em 0; }';
 
 Sanskrit.editors = [];
 
