@@ -1,3 +1,4 @@
-<strong>Fliesstext:</strong><br />
-
-<textarea name="VALUE[1]" class="sanskritEditor" style="width:725px;height:350px;">REX_VALUE[1]</textarea>
+<strong>Text</strong><br />
+<textarea name="VALUE[1]" cols="80" rows="15" class="inp100 sanskrit sanskritEditor">REX_HTML_VALUE[1]</textarea>
+<br />
+<?php rex_a79_help_overview(); ?>
