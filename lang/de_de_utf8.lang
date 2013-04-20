@@ -1,0 +1,68 @@
+# Addon: sanskrit
+#----------------
+
+# Addon-Eintrag und Addon-Titel
+sanskrit_menu_link = sanskrit Editor
+sanskrit_title = sanskrit WYSIWYG Editor <span style="font-size:10px;">(Version 0.1 beta)</span>
+
+# Versionen
+sanskrit_version = 0.1
+sanskrit_versinfo = sanskrit.js Version 0.1 beta , <a href="http://tore.darell.no/sanskrit/index.html" onclick="window.open(this.href); return false;">http://tore.darell.no/sanskrit/index.html</a>
+
+# Menüeinträge
+sanskrit_menu_info = Erklärung
+sanskrit_menu_settings = Konfiguration
+sanskrit_menu_profiles = Editor-Profile
+sanskrit_menu_css = CSS für sanskrit
+
+# Konfiguration
+sanskrit_config_title = sanskrit-Konfiguration
+sanskrit_active_be = Backend aktiv
+sanskrit_active_fe = Frontend aktiv
+sanskrit_config_excludecats = Bei folgenden Pages (Backend) bzw. Kategorien (Frontend) nicht ausführen
+sanskrit_config_excludeids = Bei folgenden Subpages (Backend) bzw. Seiten (Frontend) nicht ausführen
+sanskrit_config_csv = <em>(kommaseparierte Liste)</em>
+
+# Profil-Verwaltung
+sanskrit_listtitle = Editor-Profile
+sanskrit_listsummary = In dieser Tabelle sind alle definierten Editor-Profile enthalten
+sanskrit_addentry = Editor-Profil erstellen
+sanskrit_name = Name
+sanskrit_description = Beschreibung
+sanskrit_lang = Sprache
+sanskrit_configuration = sanskrit-Konfiguration
+sanskrit_func = Funktionen
+sanskrit_delentry = löschen
+sanskrit_back = Zurück zur Übersicht
+sanskrit_fieldset = Editor-Profil bearbeiten
+sanskrit_select = Bitte Sprache auswählen
+
+# CSS-Verwaltung
+sanskrit_css_title = CSS für sanskrit
+sanskrit_css_text = CSS für Editor und Vorschau
+sanskrit_css_infotitle = Hinweis
+sanskrit_css_info = Die hier angegebenen CSS-Anweisungen können bei der Konfiguration über folgenden Parameter eingefügt werden:<br /><strong>content_css : 'index.php?sanskritcss=true'</strong><br /><br />Die Darstellung des sanskrit-Editors und der sanskrit-Vorschau können dadurch beeinflusst werden. Weitere Informationen finden sich in der sanskrit-Dokumentation.
+
+# Fehler und Info-Meldungen
+sanskrit_error_notwriteable = Konfigurationsdatei "{0}" ist nicht beschreibbar!
+sanskrit_config_saved = Konfiguration wurde aktualisiert!
+sanskrit_config_not_saved = Konfiguration konnte nicht gespeichert werden!
+sanskrit_profile_deleted = Editor-Profil wurde gelöscht!
+sanskrit_profile_notdeleted = Editor-Profil mit ID=2 (default) darf nicht gelöscht werden!
+sanskrit_profiles_nodata = Keine Editor-Profile vorhanden!
+sanskrit_profiles_noname = Kein Name angegeben!
+sanskrit_profiles_nameinvalid = Name enthält ungültige Zeichen (nur a-z und 0-9 erlaubt)!
+sanskrit_profiles_nodesc = Keine Beschreibung angegeben!
+sanskrit_profiles_noconfig = Keine sanskrit-Konfiguration angegeben!
+sanskrit_css_saved = CSS wurde aktualisiert!
+sanskrit_css_not_saved = CSS konnte nicht gespeichert werden!
+
+# Erklärung / Hilfe / Module
+sanskrit_shorthelp = Das Addon bindet den WYSIWYG-Editor sanskrit im Backend und bei Bedarf auch im Frontend ein.
+sanskrit_longhelp = <br />Abhängig von der <a href="index.php?page=sanskrit&amp;subpage=settings">Konfiguration</a> des sanskrit-Addons wird automatisch im Backend und im Frontend<br />der sanskrit-WYSIWYG-Editor für Textareas eingebunden.<br /><br />Textareas mit der Klasse <em>sanskritEditor</em> werden automatisch von einem normalen Texteingabefeld<br />in einen WYSIWYG-Editor umgewandelt.<br />z.B.: &lt;textarea <strong>class="sanskritEditor"</strong>&gt;&lt;/textarea&gt;<br /><br />Im Backend können verschiedene <a href="index.php?page=sanskrit&amp;subpage=profiles">Editor-Profile</a> mit unterschiedlichen Konfigurationseinstellungen für den sanskrit-Editor angelegt werden. Diese Editor-Profile können durch anhängen des Profil-Namens an die Klasse angewendet werden.<br />z.B.: &lt;textarea <strong>class="sanskritEditor-simple"</strong>&gt;&lt;/textarea&gt;
+sanskrit_nodel_notice = <strong>HINWEIS:</strong><br />Der Eintrag mit der <strong>ID=2</strong> und Name <strong>default</strong> darf nicht gelöscht werden!
+
+sanskrit_title_module_input = Code-Beispiel für Moduleingabe
+sanskrit_help_module_input = Um eine Textarea in einen WYSIWYG-Editor mit sanskrit zu verwandeln reicht es der Textarea die Klasse <strong>sanskritEditor</strong> zuzuweisen.<br />Durch anhängen eines bestehenden <a href="index.php?page=sanskrit&amp;subpage=profiles">Editor-Profil-Namens</a> an die Klasse kann der sanskrit für jede Textarea individuell angepasst werden.<br />z.B.: &lt;textarea <strong>class="sanskritEditor-simple"</strong>&gt;&lt;/textarea&gt;
+sanskrit_title_module_output = Code-Beispiel für Modulausgabe
+sanskrit_help_module_output = Für die Ausgabe ist es ausreichend im Output-Modul die Variable <strong>REX_HTML_VALUE[1]</strong> anzugeben.<br />Hier ein Beispiel mit einer IF-Abfrage um eine leere Ausgabe zu vermeiden.

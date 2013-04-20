@@ -1,0 +1,9 @@
+Addon: sanskrit Version 0.2
+
+Version 0.2 (2012-08-14)
+  - Ausgabe JavaScript angepasst, Sprachen für Profile
+  - Sprachdateien aufgenommen
+
+Version 0.1 (2012-08-10)
+  - Erste Version für REDAXO
+  - nur Textformatierung, noch keine Anbindung an Linkmap/Medienpool

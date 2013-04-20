@@ -1,0 +1,7 @@
+<?php if (REX_IS_VALUE[1]) { ?>
+
+  <div class="sanskritwysiwyg">
+  REX_HTML_VALUE[1]
+  </div>
+
+<?php } ?>
