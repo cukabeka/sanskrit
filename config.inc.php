@@ -50,7 +50,7 @@ if ($REX['REDAXO'])
   // Addoninfos, Perms usw.
   $REX['ADDON']['perm'][$mypage] = $mypage.'[]';
 
-  $REX['ADDON']['author'][$mypage] = 'Andreas Eberhard';
+  $REX['ADDON']['author'][$mypage] = 'cukabeka';
   $REX['ADDON']['supportpage'][$mypage] = 'forum.redaxo.de';
   $REX['PERM'][] = $mypage.'[]';
 
