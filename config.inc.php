@@ -58,7 +58,8 @@ if ($REX['REDAXO'])
   $REX['ADDON'][$mypage]['SUBPAGES'] = array();
   $REX['ADDON'][$mypage]['SUBPAGES'][] = array ('', $I18N->msg('sanskrit_menu_info'));
   $REX['ADDON'][$mypage]['SUBPAGES'][] = array ('settings', $I18N->msg('sanskrit_menu_settings'));
-  $REX['ADDON'][$mypage]['SUBPAGES'][] = array ('profiles', $I18N->msg('sanskrit_menu_profiles'));
+  // not functional yet
+  //$REX['ADDON'][$mypage]['SUBPAGES'][] = array ('profiles', $I18N->msg('sanskrit_menu_profiles'));
   $REX['ADDON'][$mypage]['SUBPAGES'][] = array ('css', $I18N->msg('sanskrit_menu_css'));
 }
 
