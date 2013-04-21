@@ -286,6 +286,7 @@ Sanskrit.prototype = {
       paragraphs[i] = paragraphs[i].replace(/-(.+?)-/gi, '<strike>$1</strike>');
       paragraphs[i] = paragraphs[i].replace(/"(.+?)":([^\s\n<]+)/gi, '<a href="$2">$1</a>');
       paragraphs[i] = paragraphs[i].replace(/@((.|[\r\n])*?)@/gi, '<code>$1</code>');
+      paragraphs[i] = paragraphs[i].replace(/\*+(.*)?/gi, '<li>$1</li>');
       paragraphs[i] = paragraphs[i].replace(/^.*?(h1).*?((?:[a-z][a-z0-9_]*))/gi, '<h1>$2</h1>');
       paragraphs[i] = paragraphs[i].replace(/^.*?(h2).*?((?:[a-z][a-z0-9_]*))/gi, '<h2>$2</h2>');
       paragraphs[i] = paragraphs[i].replace(/^.*?(h3).*?((?:[a-z][a-z0-9_]*))/gi, '<h3>$2</h3>');
